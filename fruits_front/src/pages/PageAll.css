@@ -1,0 +1,244 @@
+.contact {
+    background-image: linear-gradient(to right, #F9B572, #BE3144, #527853, #FFFB73);
+    border-top-left-radius: 70px;
+    border-radius: 50px;
+    color: #F4DFB6;
+    padding: 1rem 5rem;
+}
+.contact p {
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+}
+.contact Form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.7rem;
+}
+.contact label {
+    text-align: start;
+    color: #FAF8ED;
+}
+.contact input {
+    border: 1px dotted #CD5C08;
+    border-radius: 5px;
+    padding: .7rem;
+}
+
+
+
+.aft.ap {
+    background-color: #B31312;
+}
+.aft.ba {
+    background-color: #E9B824;
+}
+.aft.ma {
+    background-color: #F4CE14;
+}
+.aft.or {
+    background-color: #FF9800;
+}
+.aft.wa {
+    background-color: #65B741;
+}
+
+.aft.ap:hover {
+    background-color: #FF6666;
+}
+.aft.ba:hover {
+    background-color: #994D1C;
+}
+.aft.ma:hover {
+    background-color: #FFB534;
+}
+.aft.or:hover {
+    background-color: #EE7214;
+}
+.aft.wa:hover {
+    background-color: #557C55;
+}
+
+.aft {
+    border-radius: 30px;
+    border-top-left-radius: 50px;
+}
+.aft a {
+    display: block;
+    text-decoration: none;
+    text-align: end;
+    color: #A1EEBD;
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.aft a:hover {
+    color: #EEF0E5;
+}
+.aft img {
+    width: 300px;
+    height: 270px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+.aft .sp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 1rem;
+}
+.aft .sp span {
+    color: #FFE17B;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.aft .sp p {
+    color: #FFCF96;
+    font-size: 1.6rem;
+}
+.aft .sp .i {
+    font-size: 2.3rem;
+    border: 2.3px solid #3E001F;
+    padding: 1.3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.gr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.gr div {
+    border-right: 3px solid #EAECCC;
+    padding-right: 3rem;
+}
+.gr div p:first-child {
+    font-size: 1rem;
+    color: #FFE5AD;
+    margin: 0;
+    padding: 0;
+}
+.gr div p:last-child {
+    font-size: 4.3rem;
+    color: #F4E0B9;
+    margin: 0;
+    padding: 0;
+}
+.p {
+    font-size: 1rem;
+    text-align: center;
+    color: #EEE2DE;
+    padding: 1rem 9rem;
+    margin: 1rem;
+}
+
+.se {
+    background-image: linear-gradient(#EE7214, #E48F45, #A6CF98, #EA906C, #FF8989, #E48F45, #EE7214);
+    border-radius: 10px;
+    border-top-left-radius: 25px;
+    padding: 1rem;
+}
+.se h1 {
+    color: #6B240C;
+}
+.se h2 {
+    color: #994D1C;
+}
+.se Form {
+    background-image: linear-gradient(#C8E4B2, #BED754, #E2F6CA);
+    border-radius: 7px;
+    border-top-left-radius: 25px;
+    padding: 1rem .3rem;
+    margin: 1rem 7rem;
+}
+.se Form label {
+    display: block;
+    font-style: italic;
+    font-size: 1rem;
+    color: #3E001F;
+    margin: 1rem;
+}
+.se Form textarea {
+    border: 2px dotted #FF6969;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+.se Form input {
+    border: 2px dashed #9A4444;
+    padding: .5rem;
+    border-radius: 5px;
+    margin: 1rem;
+}
+.se Form button {
+    display: block;
+    background-color: #F5E8B7;
+    border: 1px dashed #6A9C89;
+    color: #3E001F;
+    padding: 1rem;
+    margin-left: 11rem;
+}
+.se p {
+    color: #004225;
+    font-weight: lighter;
+}
+
+.home {
+    background-image: linear-gradient(to left, #B04759, #96BB7C, #F3AA60, #B04759);
+    border-radius: 23px;
+    border-top-left-radius: 50px;
+    padding: 1rem;
+}
+.home a {
+    text-decoration: none;
+}
+.home a p {
+    color: #8C3333;
+    padding: 1rem;
+    border-bottom: 3px solid #ECCDB4;
+}
+
+.holm {
+    text-decoration: none;
+    color: #1F441E;
+    font-size: 1.3rem;
+    border: 1px dotted #A13333;
+    border-radius: 3px;
+    padding: 1rem;
+    background-color: #FFD89C;
+}
+.holm:hover {
+    background-color: #7E1717;
+    color: #9EDE73;
+}
+.hom {
+    background-image: linear-gradient(to left, #C51605, #F94C10, #FF7272, #461111, #FD8D14);
+    border-radius: 10px;
+    border-top-left-radius: 20px;
+    padding: 2rem;
+    color: #EEF2FF;
+    margin: 2rem;
+}
+.hom span:nth-child(1) {
+    border: 3px dotted #A6F0C6;
+    font-weight: bold;
+    border-radius: 30%;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+.hom p:nth-child(2) {
+    font-size: 2rem;
+    color: #F0E5D8;
+}
+.hom p:nth-child(3) {
+    font-size: 1.4rem;
+    color: #F8F1F1;
+}
+.hom p:nth-child(4) {
+    font-size: 1rem;
+    color: #FDE8CD;
+    width: 50vw;
+}

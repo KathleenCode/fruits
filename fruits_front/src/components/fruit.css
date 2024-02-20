@@ -1,0 +1,54 @@
+.fruit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border-top-left-radius: 50px;
+    padding: 1rem;
+    background-color: #FFFB73;
+}
+.fruit.ap {
+    background-image: linear-gradient(to bottom, #B31312, #E9B824);
+    color: #F8FFD2;
+}
+.fruit.ba {
+    background-image: linear-gradient(to bottom, #E9B824, #F4CE14);
+    color: #FAF2D3;
+}
+.fruit.ma {
+    background-image: linear-gradient(to bottom, #F4CE14, #FF9800);
+    color: #F5F7F8;
+}
+.fruit.or {
+    background-image: linear-gradient(to bottom, #FF9800, #65B741);
+    color: #FBF6EE;
+}
+.fruit.wa {
+    background-image: linear-gradient(to bottom, #65B741, #B31312);
+    color: #EAECCC;
+}
+
+.fruit .title span {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.fruit .title p {
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #FFE17B;
+}
+
+.image img {
+    height: 150px;
+    width: 150px;
+    border-radius: 45%;
+}
+
+.fruit button {
+    background-color: #E76161;
+    padding: 1rem 2rem;
+    border: 3px dotted #B04759;
+    outline-color: #F99B7D;
+    color: #3D0C11;
+}
